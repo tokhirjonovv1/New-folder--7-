@@ -1,0 +1,38 @@
+.home {
+      display: flex;
+      justify-content: space-between;
+}
+
+.home_left {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      gap: 16px;
+      padding: 40px 10px;
+      border-right: 1px solid #000;
+      width: 233px;
+      height: 384px;
+      a {
+            color: #000;
+            font-size: 14px;
+            font-weight: 400;
+            transition: .3s;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            gap: 10px;
+            transition: .3s;
+            &:hover span {
+                  display: block;
+            }
+            span {
+                  display: none;
+            }
+      }
+}
+
+.home_right{
+      width: 892px;
+      height: 344px;
+}
